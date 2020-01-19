@@ -63,3 +63,41 @@ body.fotos #navegacao a#fotos
     color: white;
     cursor: text;
 }
+#conteudo {
+    background: #f5f5f5;
+    margin-top: 60px;
+
+}
+#primario {
+    width: 270px;
+    float: left;
+    background: blue;
+    margin: 0 0 20px 195px;
+}
+#secundario{
+    width: 270px;
+    float: left;
+    background: chartreuse;
+    margin: 0 0 20px 15px;
+}
+#lateral{
+    width: 180px;
+    float: left;
+    background: crimson;
+    margin: 0 0 20px -750px;
+}
+
+
+
+/*Rodapé*/
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+    
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
