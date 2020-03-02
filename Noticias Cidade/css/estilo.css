@@ -35,7 +35,18 @@ body {
     background: red;
 }
 
-
+#siga li a {
+    text-decoration: none;
+    
+    display: block;
+    color: #717171;
+    line-height: 2.1em;
+}
+#siga li a:hover{
+    text-decoration: none;
+    background: url(../imagens/marcador.png) no-repeat left;
+    padding-left: 20px;
+}
 #topo ul a{
     font-size: 0.9em;
     padding: 0.5em 1.5em;
