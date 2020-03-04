@@ -99,6 +99,7 @@ body.fotos #navegacao a#fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
+    
 }
 #lateral{
     width: 180px;
@@ -114,6 +115,20 @@ body.fotos #navegacao a#fotos
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+h3{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 3px;
+    display: inline;
+}
+h3.destaque{
+    background-color: #b10333;
+    color: black;
+}
+h3.cabecalho{
+    background-color: #b10333;
+    color: white;
 }
 h2{
     font-size: 1.1em;
@@ -168,4 +183,13 @@ input.submit{
     margin: 0 auto;
     color: white;
     text-align: center;
+}
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+.mundo{
+    background: url(../imagens/mundo.jpg) no-repeat left center;
+    background-size: 20% 40%;
+    padding: 10px 10px 10px 50px;
 }
