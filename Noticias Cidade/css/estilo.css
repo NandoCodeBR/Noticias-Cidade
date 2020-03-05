@@ -188,8 +188,31 @@ img.imagem-principal{
     width: 98%;
     border: 3px solid #dfdfdf;
 }
-.mundo{
-    background: url(../imagens/mundo.jpg) no-repeat left center;
-    background-size: 20% 40%;
-    padding: 10px 10px 10px 50px;
+#noticias-mundo li {
+    padding: 2px;
+    border-bottom: 3px solid #cccccc;
+    height: 62px;
+    
+}
+#noticias-mundo li:hover {
+    background: #eeeeee;
+    cursor: pointer;
+}
+#noticias-mundo li a img {
+    float: left;
+    margin: 5px;
+}
+#noticias-mundo li a h3 {
+    font-size: 0.8em;
+    color: #4169E1;
+    text-transform: capitalize;
+    display: block;
+}
+#noticias-mundo li a p{
+    font-size: 0.9em;
+    color: black;
+    padding: 0;
+}
+#noticias-mundo li a {
+    text-decoration: none;
 }
